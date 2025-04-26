@@ -1,0 +1,61 @@
+{
+  "name": "mock-sak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@lightprotocol/compressed-token": "^0.20.9",
+    "@lightprotocol/stateless.js": "^0.20.9",
+    "@mayanfinance/swap-sdk": "^10.5.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@pythnetwork/hermes-client": "^2.0.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "@solutiofi/sdk": "^1.0.2",
+    "@types/bn.js": "^5.1.6",
+    "@types/express": "^5.0.1",
+    "ai": "^4.3.10",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.7",
+    "flash-sdk": "^2.42.3",
+    "langchain": "^0.3.24",
+    "redaxios": "^0.5.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.27.12",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "rollup": "^4.36.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.4",
+    "typedoc": "^0.28.2",
+    "typedoc-plugin-markdown": "^4.6.2",
+    "typescript": "^5.7.2"
+  },
+  "exports": {
+    "./dist/lib/client": "./dist/lib/client.js"
+  }
+}
